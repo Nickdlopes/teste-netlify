@@ -1,0 +1,249 @@
+.page-archived {
+
+    background-color: #fff;
+    animation: fadein 0.5s;
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    h1,
+    h2 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 22px;
+        margin: 25px;
+    }
+
+    h3 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+    }
+
+    .logos{
+        width: 20em;
+    }
+    .page {
+        background-color: #fff;
+        animation: fadein 0.5s;
+
+    }
+
+    .mae {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .buttons {
+        background-color: #eb9359ff;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 50px;
+        padding: 15px 40px;
+        transition: transform .7s;
+        outline: none;
+        border: none;
+
+    }
+
+    .buttons:hover {
+        transform: scale(1.1);
+        background-color:#eb9359ff;
+    }
+
+    .info {
+        background-color: #F9F2E7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+       
+    }
+    .lupa {
+        
+        position: absolute;
+       
+        width: 2.7em;
+        height: 2.7em;
+        position: absolute;
+        right:11em;
+        margin-top: 0.4em;        
+        cursor: pointer;   
+    }
+
+    .pesquisa {
+        width: 60em;
+        padding: 2em 0em 2em 0em;
+    }
+
+    .pesquisa-elements {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .pesquisa-elements > input {
+        height: 2em;
+        padding: 2em;
+        width: 100%;
+        border: none;
+        border-radius: 5em;
+        animation: none;
+        text-decoration: none;
+        outline: none;
+    }
+
+    .arquivadas {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60em;
+        border-radius: 20px;
+        margin-bottom: 2em;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #C5DBDE;
+
+    }
+
+    .icons>button {
+        background-color: #C5DBDE;
+        border: none;
+    }
+
+    button>img {
+        width: 2em;
+    }
+
+    a>img {
+        width: 2em;
+    }
+
+    .azulzin {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 40px;
+        background-color: #C5DBDE;
+        border-radius: 20px;
+        width: 50em;
+        height: 7em;
+        margin-bottom: 40px;
+        transition: transform .7s;
+    }
+
+    .azulzin > p{
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .azulzin:hover {
+        transform: scale(1.05);
+        background-color:#9dbec2 ;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2em;
+    }
+    .rodape > p{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        width: 37em;
+        color: #2E939C;
+    }
+
+    @media (max-width: 480px){
+        
+        header {
+            height: 5em;    
+        }
+
+
+        .logos{
+            width: 8em;
+        }
+        .buttons {
+            padding: 11px 15px;
+            font-size: 10px;
+        }
+        button > img {
+            width: 1em;
+        }
+        .lupa {
+            width: 1.2em;
+            height: 1.2em;
+            right: 1em;
+            margin-top: 0.8em;
+            margin-right: 0.02em;        
+        }
+        .pesquisa {
+            width: 25em;
+            padding: 2em 0em 2em 0em;
+        }
+        .pesquisa-elements > input {
+            height: 1.5em;
+            padding: 1.7em;
+            width: 100%;
+            border-radius: 0.9em;
+        }
+        .arquivadas {
+            width: 25em;
+            border-radius: 20px;
+            margin-bottom: 2em;
+        }
+        .icons img {
+            width: 1.8em;
+        }
+        a > img {
+            width: 10px;
+        }
+        h2 {
+            font-size: 1em;
+        }
+        .azulzin {
+            padding: 0px 40px;
+            border-radius: 20px;
+            width: 30em;
+            height: 6em;
+            margin-bottom: 40px;
+
+            font-size: 12px;
+        }
+        .rodape > p{
+            text-align: center;
+            font-size: 0.6em;
+            width: 42em;
+        }
+    }
+}

@@ -1,0 +1,474 @@
+
+.page-home{
+    
+    margin: 0px;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    animation: fadein 0.7s;
+
+    overflow-x: hidden;
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+    
+
+    font-family: 'Quicksand', sans-serif;
+    main{
+
+        
+        font-family: 'Quicksand', sans-serif;
+      
+    
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .logos{
+        width: 18em;
+    }
+    .buttons{
+        background-color: #eb9359ff;
+        text-decoration: none;
+        color: #ffff;
+        border-radius: 30px;
+        padding: 12px 25px;
+        font-size: 18px;
+        transition: transform .7s;
+    }
+    .buttons:hover{
+        transform: scale(1.05)
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center ;
+    
+        padding: 1px 80px 1px 10px;
+    
+        background-color: white;
+        text-align: center;
+        
+    }
+    header > img{
+        width: 20em;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 40px 0px 0px 0px;
+    
+        background-color: #F9F2E7;
+        text-align: center;
+    }
+    .content-container1{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: -2.5em;
+        width: 100%;
+        height:80vh;
+    
+        display: flex;
+        justify-content: flex-end;
+    }
+    .container1-espacamento{
+        display:inline-block;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1em 1.5em 0em 0em;
+        color: #354F2C;
+        line-height: 3.3em;
+    }
+    .espacamento-text{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 2em;
+        line-height: 1.8em;
+        width: 13em; height: 14em;
+        margin-right: 2em;
+    }
+    .content-container1 > *{
+        margin-bottom: 15em;
+        text-align:right;
+    }
+    .content-container2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        background-color: #40C0CB;
+    
+        border-radius: 20px;
+        width: 73em;
+        height: 17em;
+        margin-top: 1.2em;
+        padding: 16px;
+    }
+    .ct2-text{
+        font-size: 20px;
+        color: #ffff;
+        line-height: 2em;
+    }
+    .content-container3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .boxes{
+        width: 21em;
+        margin: 2.5em;
+        padding: 1.5em 1.3em 1.5em 1.3em;
+        border-radius: 20px;
+    
+        background-color: #bae0e5;
+        transition: transform .7s;
+    }
+
+    .boxes:hover {
+        transform: scale(1.05);
+        background-color: #c3e7ec;
+    }
+    .boxes > p{
+        line-height: 1.5em;
+        text-align: center;
+        font-size: 22px;
+    }
+    .boxes > h2{
+        font-family: 'Quicksand', sans-serif;
+        color: #40C0CB;
+        font-size: 30px;
+        margin-bottom: 0.8em ;
+    }
+    .content-container4{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        width: 75em;
+        height: 37em;
+    }
+    .ct4-psicologo{
+        width: 20em;
+        border-radius: 3em;
+    }
+    .visible-xs {
+        display: none;
+        visibility: hidden;
+    }
+
+
+    .container4-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container4-text > h1{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 2em;
+        color: #eb9359ff;
+        margin-bottom:0.7em ;
+    }
+    .container4-text > p{
+        font-size: 23px;
+        width: 33em;
+        margin-left: 3em;
+        text-align: center;
+        margin-bottom: 2.9em;
+        line-height: 1.5em;
+    }
+    .content-container5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4em;
+    }
+    .content-container5 > h3{
+        color: #2E939C;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 22px;
+        margin-bottom:0.7em ;
+    }
+    .content-container5 > h2{
+        color: #40C0CB;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 32px;
+        margin-bottom: 0.8em;
+    }
+    .container5-texts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 32px;
+        margin-left: 2em;
+    }
+    .container5-text1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 1em;
+    }
+    .container5-text1 > p{
+        font-size: 20px;
+        width: 25em;
+        margin-left: 1.5em;
+        margin-right: 3em;
+    }
+    .container5-text1 > div{
+        background-color: #a09a9a;
+        width: 5px;
+        height: 7em;
+        border-radius: 20px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2em;
+        width: 100%;
+        background-color: #ffff;
+    }
+
+    .footer p {
+        color:#2E939C;
+        font-weight: 600;
+        letter-spacing: 1.01px;
+    }
+
+    .footer-container3 > p{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .footer-container2, .footer-container3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 23em;
+        height: 10;
+    }
+
+    @media (max-width: 414px){
+        header > img{
+            width: 10em;
+        }
+        .buttons{
+            font-size: 13px;
+            padding: 7px 10px;
+        }
+        .content-container1{
+            
+            margin-bottom: 0em;
+            width: 100%;
+            height:15em;
+        }
+        
+        .container1-espacamento{
+            margin: 1em 1.5em 0em 0em;
+            line-height: 2.3em;
+        }
+        .espacamento-text{
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1em;
+            line-height: 1.2em;
+            width: 12.5em; 
+            height: 14em;
+            margin-right: 0.5em;
+        }
+        .content-container2{
+            display: block;
+            width: 23.9em;
+            height: 20em;
+            margin-top:-1.7em;
+            padding: 16px;
+            margin-bottom: 1.2em;
+        }
+        .content-container2 > img{
+            width: 4em;
+        }
+        .ct2-text{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.6em;
+        }
+
+        .visible-xs {
+            display: block;
+            visibility: visible;
+            height: 18em;
+            width: 25em;
+            border-radius: 3em;
+            margin-bottom: 1.5em;
+
+        }
+
+        .ct4-psicologo{
+            display: none;
+          visibility: hidden;
+        }
+
+        .content-container3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1.5em;
+        }
+        .boxes{
+            width: 23.9em;
+            height: 14em;
+            margin: 0.5em;
+            padding: 1.5em 1.3em 1.5em 1.3em;
+            border-radius: 20px;
+        }
+        .boxes > p{
+
+            text-align: center;
+            line-height: 1.6em;
+            font-size: 13px;
+            font-weight: 600;
+            color: #4d4e4e;
+        }
+        .boxes > h2{
+            font-size: 15px;
+            margin-bottom: 0.8em ;
+            margin-bottom: 15px;
+        }
+        .content-container4{
+            flex-direction: column;
+            
+            width: 15em;
+            height: 45em;
+        }
+        .ct4-psicologo{
+            width: 8em;
+            border-radius: 3em;
+        }
+        .container4-text > h1{
+            font-size: 1.5em;
+            margin-bottom:0.5em ;
+            color: #eb9359ff;
+            
+        }
+        .container4-text > p{
+            text-align: center;
+            font-size: 15px;
+            width: 25em;
+            font-weight: 600;
+            margin-left: 0px;
+            margin-bottom: 2em;
+            line-height: 1.5em;
+            color: #4d4e4e;
+        }
+        .content-container5 > h2{
+            font-size: 22px;
+            
+            width: 18em;
+        }
+        .content-container5 > h3{
+            font-size: 18px;
+            
+        }
+        .container5-texts{
+            padding: 0px 20px;
+            margin-left: 1.9em;
+            height: 30em;
+            width:20em;
+        }
+        .container5-text1{
+            width: 28em;
+            margin: 0.5em 0.5em;
+        }
+        .container5-text1 > p{
+            font-size: 17px;
+            width: 18em;
+            margin-left: 1.5em;
+            margin-right: 2.5em;
+        }
+        .container5-text1 > div{
+            
+            background-color: rgb(160, 154, 154);
+            width: 1px;
+            height: 10em;
+            border-radius: 20px;
+            
+        }
+
+        .depoimento {
+            margin-top: 1.2em;
+        }
+
+        .footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 2em;
+            width: 40em;
+            background-color: #ffff;
+        }
+    
+        .footer p {
+            color:#2E939C;
+            font-weight: 600;
+            letter-spacing: 1.01px;
+        }
+    
+        .footer-container2, .footer-container3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .footer-container3 {
+            margin-bottom:2em ;
+            margin-top: -2em;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            align-items: space-evenly;
+            justify-content: center;
+            padding: 0.5em;
+            width: 100%;
+        }
+    
+        .footer > p {
+            font-size: 16px;
+            letter-spacing: 1.01px;
+        }   
+        .footer-container2 {
+            padding: 7px;
+            margin-bottom: -1em;
+            margin-top:-2em ;
+        }
+        .footer-container2 > img {
+            width: 10em;
+        }
+        .footer-container2, .footer-container3{
+            width: 20em;
+            height: 12em;
+            text-align: center;
+        }
+    }
+    
+}

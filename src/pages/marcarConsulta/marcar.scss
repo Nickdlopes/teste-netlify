@@ -1,0 +1,218 @@
+.page-mark{
+  
+    
+    overflow-x: hidden;
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+        
+    
+    .page{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .a{
+        
+        background-color: #eb9359ff;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 35px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-family: 'Quicksand', sans-serif;
+        transition: transform .7s;
+        margin-top: 1.5em;
+        outline: none;
+        border: none;
+        
+    }
+    .a:hover{
+        transform: scale(1.1);
+        background-color:#eb9359ff;
+    }
+
+    .a1{
+        
+        background-color: #eb9359ff;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 35px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-family: 'Quicksand', sans-serif;
+        transition: transform .7s;
+        margin-top: 0.5em;
+        outline: none;
+        border: none;
+        
+    }
+    .a1:hover{
+        transform: scale(1.1);
+        background-color:#eb9359ff;
+    }
+
+    h1 {
+        color:#40C0CB
+    }
+    
+    .info{
+        width: auto;
+        height: auto;
+        background-color: #F9F2E7;
+        animation: fadein 0.5s;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        font-family: 'Quicksand', sans-serif;
+    }
+    .registro{
+        display: flex;
+        flex-direction: column;
+        
+        width: 48em;
+    }
+    .paciente{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        width: 35em;
+    }
+
+    .h1{
+        margin-top: 0.3em;
+    }
+
+    .nome-paciente input {   
+        margin-top: 0;
+        border: none;
+        border-radius: 8px;
+        font-size: 15px;
+        height: 2em;
+        width: 49.5em;
+        margin-left: 0.6em; 
+        font-family: 'Quicksand', sans-serif;
+        padding: 1.8em;
+        outline: none;
+
+    }
+    
+    .paciente input{
+        border: none;
+        border-radius: 8px;
+        font-size: 15px;
+        height: 2em;
+        width: 24em;
+        font-family: 'Quicksand', sans-serif;
+        margin:0px;
+        padding: 1.8em;
+        outline: none;
+    }
+
+
+    
+    .formulario-1, .formulario-2, .formulario-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 0.5em;
+    }
+    
+    label{
+        font-size: 20px;
+        margin:15px;
+        color: #40C0CB;
+    }
+
+    .botoes {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    @media (max-width: 480px){
+        
+        h1{
+            margin-bottom: 1em;
+        }
+        .registro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            width: 28em;
+        }        
+        .paciente{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            width: 16em;
+        }
+        .nome-paciente{
+            display: flex;
+            flex-direction: column;
+            
+            width: 20m;
+        }
+        .nome-paciente input {   
+            margin-top: 0.5em;
+            font-size: 11px;
+            height: 1em;
+            width: 28em;
+            margin-left: 0.6em; 
+            padding: 1.8em;
+        }
+        .paciente input{
+            font-size: 11px;
+            height: 1em;
+            width: 28em;
+            margin: 5px;
+            padding: 1.8em;
+        }
+        .formulario-1, .formulario-3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 0.5em;
+
+            width: 22em;
+        }
+        .formulario-1 > input{
+            width: 9em;
+        }
+        .formulario-2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+            margin-top: 0.5em;
+
+            width: 22em;
+        }
+        .formulario-2 > .paciente{
+            width: 12em;
+        }
+        .formulario-2 > .paciente > input{
+            width: 15em;
+        }
+        .formulario-2 > .paciente > label{
+            width: 11em;
+        }
+        label{
+            font-size: 15px;
+            margin:8px;
+            width: 12em;
+        }
+    }
+}
